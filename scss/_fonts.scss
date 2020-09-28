@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'GothamRoundedLight', sans-serif;
+    src: url(../fonts/GothamRoundedLight.woff2) format("woff2"),
+         url(../fonts/GothamRoundedLight.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GothamRoundedLightItalic', sans-serif;
+    src: url(../fonts/GothamRoundedLightItalic.woff2) format("woff2"),
+         url(../fonts/GothamRoundedLightItalic.woff) format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GothamRoundedMedium', sans-serif;
+    src: url(../fonts/GothamRoundedMedium.woff2) format("woff2"),
+         url(../fonts/GothamRoundedMedium.woff) format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GothamRounded-MediumItalic', sans-serif;
+    src: url(../fonts/GothamRounded-MediumItalic.woff2) format("woff2"),
+         url(../fonts/GothamRounded-MediumItalic.woff) format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GothamRoundedBook', sans-serif;
+    src: url(../fonts/GothamRoundedBook.woff2) format("woff2"),
+         url(../fonts/GothamRoundedBook.woff) format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GothamRoundedBold', sans-serif;
+    src: url(../fonts/GothamRoundedBold.woff2) format("woff2"),
+         url(../fonts/GothamRoundedBold.woff) format("woff");
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
