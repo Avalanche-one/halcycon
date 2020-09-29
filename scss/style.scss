@@ -220,6 +220,21 @@
     background-size: cover;
     background-position: center;
     min-height: 300px;
+    h1 {
+        &.left {
+            animation: animLeft 1s;
+        }
+    }
+    h3 {
+        &.right {
+            animation: animRight 1s;
+        }
+    }
+    .arrow-down {
+        &.animVis {
+            animation: animVisible 1s;
+        }
+    }
 }
 
 .bridge__inner {
