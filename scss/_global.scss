@@ -42,34 +42,6 @@ body {
     color: #8c9398;
 }
 
-
-@keyframes preloader-rotate {
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
-@keyframes preloader-bounce {
-  
-    0%,
-    100% {
-      transform: scale(0);
-    }
-  
-    50% {
-      transform: scale(1);
-    }
-  }
-  
-  .loaded_hiding .preloader {
-    transition: 0.3s opacity;
-    opacity: 0;
-  }
-  
-  .loaded .preloader {
-    display: none;
-  }
-
 .container {
     max-width: 1170px;
     margin: 0 auto;
@@ -173,6 +145,16 @@ body {
 
     100% {
         opacity: 1;
+    }
+}
+
+@keyframes animUp {
+    0% {
+        transform: translateY(6000px);
+    } 
+
+    100% {
+        transform: translateY(0);
     }
 }
 

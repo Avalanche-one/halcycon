@@ -152,13 +152,13 @@
     max-width: 340px;
     padding: 0 10px;
     &.left {
-        animation: animLeft 1s;
+        animation: animLeft 1.5s;
     }
     &.right {
-        animation: animRight 1s;
+        animation: animRight 1.5s;
     }
     &.animVis {
-        animation: animVisible 1s;
+        animation: animVisible 1.5s;
     }
 }
 
@@ -222,17 +222,17 @@
     min-height: 300px;
     h1 {
         &.left {
-            animation: animLeft 1s;
+            animation: animLeft 1.5s;
         }
     }
     h3 {
         &.right {
-            animation: animRight 1s;
+            animation: animRight 1.5s;
         }
     }
     .arrow-down {
-        &.animVis {
-            animation: animVisible 1s;
+        &.left {
+            animation: animLeft 1.5s;
         }
     }
 }
