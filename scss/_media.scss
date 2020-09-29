@@ -25,6 +25,12 @@
     }
     .about__item {
         margin: 0 auto 30px auto;
+        &.left {
+            animation: animVisible 1s;
+        }
+        &.right {
+            animation: animVisible 1s;
+        }
     }
 }
 

@@ -1,5 +1,13 @@
 $(function(){
 
+    window.onload = function () {
+        document.body.classList.add('loaded_hiding');
+        window.setTimeout(function () {
+          document.body.classList.add('loaded');
+          document.body.classList.remove('loaded_hiding');
+        }, 500);
+    }
+
     $('.slider__inner').slick({
         infinite: true,
         arrows: false,
@@ -62,5 +70,14 @@ $(function(){
         $('.menu__wrapper').toggleClass('active');
     });
 
-    new WOW().init();
+    wow = new WOW(
+        {
+        boxClass:     'wow',      // default
+        animateClass: 'animation', // default
+        offset:       0,          // default
+        mobile:       true,       // default
+        live:         true        // default
+      }
+      )
+      wow.init();
 });
