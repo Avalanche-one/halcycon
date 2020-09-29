@@ -220,6 +220,16 @@
     background-size: cover;
     background-position: center;
     min-height: 300px;
+    h1 {
+        &.left {
+            animation: animLeft 1.5s;
+        }
+    }
+    h3 {
+        &.right {
+            animation: animRight 1.5s;
+        }
+    }
     .arrow-down {
         width: 40px;
         height: 40px;
@@ -239,6 +249,9 @@
                 height: 40px;
                 padding-top: 2px;
             }
+        }
+        &.left {
+            animation: animLeft 1.5s;
         }
     }
 }
@@ -542,7 +555,7 @@
 
 .footer__links {
     a {
-        color: #fff;
+        color: #fff !important;
     }
     span {
         color: #fff;
